@@ -3,4 +3,9 @@ name = "riir_os"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
+# panic = "abort" 는 패닉 시 스택 되감기를 하지 않고 바로 프로그램 종료하겠다는 뜻
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
