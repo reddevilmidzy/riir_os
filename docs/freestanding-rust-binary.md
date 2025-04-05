@@ -1,4 +1,4 @@
-# Freestanding rust binary
+# A Freestanding rust binary
 
 Rust로 운영체제 커널을 작성하려면, 운영체제 없이도 실행가능한 실행파일이 필요하다. 이런 실행파일은 보통 "freestanding" 혹은 "bare-metal" 실행파일이라고 한다.  
 운영체제를 만든다는 것은 운영체제에 의존하지 않는 다는 것이다. 모든 Rust 프로그램들은 Rust 표준 라이브러리를 링크하는데, 이 라이브러리는 스레드, 파일, 네트워킹 등의 기능을 제공하기 위해 운영체제에 의존적이다.
