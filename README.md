@@ -1,7 +1,7 @@
 # riir_os
 OS를 만들어 봅시다.  
 
-* [A Freestanding Rust Binary](docs/freestanding-rust-binary.md)
+* [A Freestanding Rust Binary](docs/a-freestanding-rust-binary.md)
 
 ---
 
